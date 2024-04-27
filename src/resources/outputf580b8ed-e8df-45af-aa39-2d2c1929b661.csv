@@ -1,0 +1,327 @@
+,Age in 5-year groups,Type of place of residence,Number of household members,Has electricity,under-5 mortality,Type of toilet facility,Has radio,Time to get to water source (minutes),Source of drinking water
+0,30-34,rural,6.0,no,0.16923076923076924,,,,
+1,30-34,rural,6.0,,0.16923076923076924,,,,
+2,30-34,rural,,no,0.17391304347826086,pit latrine without slab/open pit,no,,
+3,30-34,rural,,no,0.19129082426127528,pit latrine without slab/open pit,yes,,
+4,30-34,rural,,no,0.18383658969804617,pit latrine without slab/open pit,,,
+5,30-34,rural,,,0.19129082426127528,pit latrine without slab/open pit,yes,,
+6,30-34,rural,,,0.18351063829787234,pit latrine without slab/open pit,,,
+7,30-34,rural,,no,0.18518518518518517,no facility/bush/field,no,,
+8,30-34,rural,,no,0.1980440097799511,no facility/bush/field,yes,,
+9,30-34,rural,,no,0.1912442396313364,no facility/bush/field,,,
+10,30-34,rural,,,0.1980440097799511,no facility/bush/field,yes,,
+11,30-34,rural,,,0.1912442396313364,no facility/bush/field,,,
+12,30-34,rural,,no,0.17148760330578514,pit latrine with slab,,,
+13,30-34,rural,,,0.17148760330578514,pit latrine with slab,,,
+14,30-34,rural,,no,0.18837675350701402,ventilated improved pit latrine (vip),,,
+15,30-34,rural,,,0.18627450980392157,ventilated improved pit latrine (vip),,,
+16,30-34,rural,,no,0.1841100076394194,,no,,
+17,30-34,rural,,no,0.1841952353282975,,yes,,
+18,30-34,rural,,no,0.18415841584158416,,,,
+19,30-34,rural,,,0.1836027713625866,,yes,,
+20,30-34,rural,,,0.1837002957607624,,,,
+21,30-34,rural,,no,0.20810313075506445,,,10.0,
+22,30-34,rural,,,0.2062043795620438,,,10.0,
+23,30-34,rural,,no,0.16205533596837945,,,,unprotected spring
+24,30-34,rural,,,0.16205533596837945,,,,unprotected spring
+25,30-34,rural,,no,0.18725868725868725,,,,tube well or borehole
+26,30-34,rural,,,0.18725868725868725,,,,tube well or borehole
+27,30-34,rural,,no,0.16483516483516483,,,,protected well
+28,30-34,rural,,,0.16414686825053995,,,,protected well
+29,30-34,rural,,no,0.19023136246786632,,,,river/dam/lake/ponds/stream/canal/irrigation channel
+30,30-34,rural,,,0.18974358974358974,,,,river/dam/lake/ponds/stream/canal/irrigation channel
+31,30-34,rural,5.0,no,0.17982456140350878,,,,
+32,30-34,rural,5.0,,0.17787418655097614,,,,
+33,30-34,urban,,no,0.1931931931931932,,,,
+34,30-34,urban,,no,0.19034482758620688,,yes,,
+35,30-34,urban,,yes,0.14121037463976946,,,,
+36,30-34,urban,,yes,0.12758620689655173,,yes,,
+37,30-34,urban,,,0.17979197622585438,,,,
+38,30-34,urban,,no,0.18114143920595532,pit latrine with slab,,,
+39,30-34,urban,,,0.17307692307692307,pit latrine with slab,,,
+40,30-34,urban,,,0.1722689075630252,pit latrine with slab,yes,,
+41,30-34,urban,,no,0.17571059431524547,,,,protected well
+42,30-34,urban,,,0.16938775510204082,,,,protected well
+43,30-34,urban,,,0.171990171990172,,yes,,protected well
+44,30-34,urban,,,0.16569767441860464,,,,public tap/standpipe
+45,20-24,rural,,no,0.11363636363636363,pit latrine without slab/open pit,no,,
+46,20-24,rural,,no,0.14835164835164835,pit latrine without slab/open pit,yes,,
+47,20-24,rural,,no,0.13128491620111732,pit latrine without slab/open pit,,,
+48,20-24,rural,,,0.14835164835164835,pit latrine without slab/open pit,yes,,
+49,20-24,rural,,,0.13128491620111732,pit latrine without slab/open pit,,,
+50,20-24,rural,,no,0.1407035175879397,no facility/bush/field,no,,
+51,20-24,rural,,no,0.14012738853503184,no facility/bush/field,yes,,
+52,20-24,rural,,no,0.1404494382022472,no facility/bush/field,,,
+53,20-24,rural,,,0.14012738853503184,no facility/bush/field,yes,,
+54,20-24,rural,,,0.13966480446927373,no facility/bush/field,,,
+55,20-24,rural,,no,0.1319796954314721,pit latrine with slab,,,
+56,20-24,rural,,,0.1319796954314721,pit latrine with slab,,,
+57,20-24,rural,,,0.12949640287769784,ventilated improved pit latrine (vip),,,
+58,20-24,rural,,no,0.1437246963562753,,no,,
+59,20-24,rural,,no,0.13089005235602094,,yes,,
+60,20-24,rural,,no,0.13683223992502344,,,,
+61,20-24,rural,,,0.1317157712305026,,yes,,
+62,20-24,rural,,,0.13687150837988826,,,,
+63,20-24,rural,,no,0.15846994535519127,,,,unprotected spring
+64,20-24,rural,,,0.15846994535519127,,,,unprotected spring
+65,20-24,rural,,no,0.1794871794871795,,,,tube well or borehole
+66,20-24,rural,,,0.1794871794871795,,,,tube well or borehole
+67,20-24,rural,,no,0.06707317073170732,,,,protected well
+68,20-24,rural,,,0.07142857142857142,,,,protected well
+69,20-24,rural,,no,0.1396103896103896,,,,river/dam/lake/ponds/stream/canal/irrigation channel
+70,20-24,rural,,no,0.1509433962264151,,yes,,river/dam/lake/ponds/stream/canal/irrigation channel
+71,20-24,rural,,,0.13870967741935483,,,,river/dam/lake/ponds/stream/canal/irrigation channel
+72,20-24,rural,,,0.1509433962264151,,yes,,river/dam/lake/ponds/stream/canal/irrigation channel
+73,20-24,rural,4.0,no,0.1638418079096045,,,,
+74,20-24,rural,4.0,,0.1638418079096045,,,,
+75,20-24,rural,5.0,no,0.0736196319018405,,,,
+76,20-24,rural,5.0,,0.07317073170731707,,,,
+77,20-24,urban,,no,0.15328467153284672,,no,,
+78,20-24,urban,,no,0.16943521594684385,,yes,,
+79,20-24,urban,,no,0.1643835616438356,,,,
+80,20-24,urban,,yes,0.11267605633802817,,,,
+81,20-24,urban,,yes,0.10857142857142857,,yes,,
+82,20-24,urban,,,0.14746543778801843,,,,
+83,20-24,urban,,no,0.13259668508287292,pit latrine with slab,,,
+84,20-24,urban,,no,0.13138686131386862,pit latrine with slab,yes,,
+85,20-24,urban,,yes,0.09302325581395349,pit latrine with slab,,,
+86,20-24,urban,,,0.1198501872659176,pit latrine with slab,,,
+87,20-24,urban,,,0.13432835820895522,ventilated improved pit latrine (vip),,,
+88,20-24,urban,,,0.17699115044247787,,,0.0,
+89,20-24,urban,,,0.18947368421052632,,yes,0.0,
+90,20-24,urban,,no,0.13297872340425532,,,,protected well
+91,20-24,urban,,no,0.14893617021276595,,yes,,protected well
+92,20-24,urban,,,0.12547528517110265,,,,protected well
+93,20-24,urban,,,0.14215686274509803,,yes,,protected well
+94,20-24,urban,,,0.09523809523809523,pit latrine with slab,,,protected well
+95,20-24,urban,,,0.09803921568627451,pit latrine with slab,yes,,protected well
+96,20-24,urban,,,0.15476190476190477,,,,public tap/standpipe
+97,20-24,urban,,,0.1271186440677966,,yes,,public tap/standpipe
+98,40-44,rural,,no,0.23655913978494625,pit latrine without slab/open pit,,,
+99,40-44,rural,,,0.23655913978494625,pit latrine without slab/open pit,,,
+100,40-44,rural,,no,0.21179624664879357,no facility/bush/field,,,
+101,40-44,rural,,,0.21179624664879357,no facility/bush/field,,,
+102,40-44,rural,,no,0.2264840182648402,,no,,
+103,40-44,rural,,no,0.23271375464684016,,yes,,
+104,40-44,rural,,no,0.22991803278688525,,,,
+105,40-44,rural,,,0.2323008849557522,,yes,,
+106,40-44,rural,,,0.22970216238270094,,,,
+107,40-44,urban,,no,0.2102496714848883,,,,
+108,40-44,urban,,no,0.22117202268431002,,yes,,
+109,40-44,urban,,,0.20298769771529,,,,
+110,40-44,urban,,,0.19953051643192488,,yes,,
+111,40-44,urban,,,0.21705426356589147,pit latrine with slab,,,
+112,25-29,rural,6.0,no,0.14326647564469913,,,,
+113,25-29,rural,6.0,,0.14204545454545456,,,,
+114,25-29,rural,,no,0.1758957654723127,,,20.0,
+115,25-29,rural,,,0.17684887459807075,,,20.0,
+116,25-29,rural,,no,0.16621253405994552,pit latrine without slab/open pit,no,,
+117,25-29,rural,,no,0.18161925601750548,pit latrine without slab/open pit,yes,,
+118,25-29,rural,,no,0.17475728155339806,pit latrine without slab/open pit,,,
+119,25-29,rural,,,0.18161925601750548,pit latrine without slab/open pit,yes,,
+120,25-29,rural,,,0.17475728155339806,pit latrine without slab/open pit,,,
+121,25-29,rural,,no,0.14565826330532214,no facility/bush/field,no,,
+122,25-29,rural,,no,0.17897727272727273,no facility/bush/field,yes,,
+123,25-29,rural,,no,0.1622002820874471,no facility/bush/field,,,
+124,25-29,rural,,,0.17897727272727273,no facility/bush/field,yes,,
+125,25-29,rural,,,0.1622002820874471,no facility/bush/field,,,
+126,25-29,rural,,no,0.17042606516290726,pit latrine with slab,,,
+127,25-29,rural,,,0.16995073891625614,pit latrine with slab,,,
+128,25-29,rural,,no,0.1510791366906475,ventilated improved pit latrine (vip),,,
+129,25-29,rural,,,0.15296803652968036,ventilated improved pit latrine (vip),,,
+130,25-29,rural,,no,0.16333938294010888,,no,,
+131,25-29,rural,,no,0.17158385093167702,,yes,,
+132,25-29,rural,,no,0.16778242677824268,,,,
+133,25-29,rural,,,0.17039321511179645,,yes,,
+134,25-29,rural,,,0.16769929781082196,,,,
+135,25-29,rural,,no,0.2106537530266344,,,10.0,
+136,25-29,rural,,,0.2106537530266344,,,10.0,
+137,25-29,rural,,no,0.1644295302013423,,,30.0,
+138,25-29,rural,,,0.1644295302013423,,,30.0,
+139,25-29,rural,,no,0.1894093686354379,,,,unprotected spring
+140,25-29,rural,,,0.1894093686354379,,,,unprotected spring
+141,25-29,rural,,no,0.15841584158415842,,,,tube well or borehole
+142,25-29,rural,,,0.15841584158415842,,,,tube well or borehole
+143,25-29,rural,,no,0.13855421686746988,,,,protected well
+144,25-29,rural,,,0.13864306784660768,,,,protected well
+145,25-29,rural,,no,0.1629032258064516,,,,river/dam/lake/ponds/stream/canal/irrigation channel
+146,25-29,rural,,no,0.19476744186046513,,yes,,river/dam/lake/ponds/stream/canal/irrigation channel
+147,25-29,rural,,,0.16323296354992076,,,,river/dam/lake/ponds/stream/canal/irrigation channel
+148,25-29,rural,,,0.19476744186046513,,yes,,river/dam/lake/ponds/stream/canal/irrigation channel
+149,25-29,rural,4.0,no,0.1956521739130435,,,,
+150,25-29,rural,4.0,,0.19938650306748465,,,,
+151,25-29,rural,5.0,no,0.14035087719298245,,,,
+152,25-29,rural,5.0,,0.14224137931034483,,,,
+153,25-29,urban,,no,0.15572715572715573,,,,
+154,25-29,urban,,no,0.13584905660377358,,yes,,
+155,25-29,urban,,yes,0.12539184952978055,,,,
+156,25-29,urban,,yes,0.12595419847328243,,yes,,
+157,25-29,urban,,,0.1468978102189781,,,,
+158,25-29,urban,,no,0.12333333333333334,pit latrine with slab,,,
+159,25-29,urban,,no,0.1031390134529148,pit latrine with slab,yes,,
+160,25-29,urban,,,0.11059907834101383,pit latrine with slab,,,
+161,25-29,urban,,,0.09649122807017543,pit latrine with slab,yes,,
+162,25-29,urban,,,0.1652542372881356,ventilated improved pit latrine (vip),,,
+163,25-29,urban,,no,0.16071428571428573,,,,protected well
+164,25-29,urban,,no,0.12807881773399016,,yes,,protected well
+165,25-29,urban,,,0.13066666666666665,,,,protected well
+166,25-29,urban,,,0.10600706713780919,,yes,,protected well
+167,25-29,urban,,,0.17595307917888564,,,,public tap/standpipe
+168,25-29,urban,,,0.1799163179916318,,yes,,public tap/standpipe
+169,35-39,rural,6.0,no,0.22406015037593985,,,,
+170,35-39,rural,6.0,,0.22406015037593985,,,,
+171,35-39,rural,,no,0.22,pit latrine without slab/open pit,no,,
+172,35-39,rural,,no,0.20951302378255945,pit latrine without slab/open pit,yes,,
+173,35-39,rural,,no,0.21375590020229265,pit latrine without slab/open pit,,,
+174,35-39,rural,,,0.20951302378255945,pit latrine without slab/open pit,yes,,
+175,35-39,rural,,,0.21375590020229265,pit latrine without slab/open pit,,,
+176,35-39,rural,,no,0.2551834130781499,no facility/bush/field,no,,
+177,35-39,rural,,no,0.2522768670309654,no facility/bush/field,,,
+178,35-39,rural,,,0.2522768670309654,no facility/bush/field,,,
+179,35-39,rural,,no,0.19281045751633988,pit latrine with slab,,,
+180,35-39,rural,,,0.19281045751633988,pit latrine with slab,,,
+181,35-39,rural,,no,0.20576923076923076,ventilated improved pit latrine (vip),,,
+182,35-39,rural,,,0.2026266416510319,ventilated improved pit latrine (vip),,,
+183,35-39,rural,,no,0.22563176895306858,,no,,
+184,35-39,rural,,no,0.21942110177404295,,yes,,
+185,35-39,rural,,no,0.22213459516298634,,,,
+186,35-39,rural,,,0.21876451463074778,,yes,,
+187,35-39,rural,,,0.22152395915161036,,,,
+188,35-39,rural,,no,0.2474747474747475,,,,unprotected spring
+189,35-39,rural,,,0.2474747474747475,,,,unprotected spring
+190,35-39,rural,,no,0.2089783281733746,,,,tube well or borehole
+191,35-39,rural,,,0.2089783281733746,,,,tube well or borehole
+192,35-39,rural,,no,0.23421926910299004,,,,protected well
+193,35-39,rural,,,0.23240589198036007,,,,protected well
+194,35-39,rural,,no,0.21262458471760798,,,,river/dam/lake/ponds/stream/canal/irrigation channel
+195,35-39,rural,,,0.21168687982359427,,,,river/dam/lake/ponds/stream/canal/irrigation channel
+196,35-39,rural,7.0,no,0.17465224111282843,,,,
+197,35-39,rural,7.0,,0.17465224111282843,,,,
+198,35-39,urban,,no,0.21951219512195122,,,,
+199,35-39,urban,,no,0.22870478413068845,,yes,,
+200,35-39,urban,,yes,0.14522821576763487,,,,
+201,35-39,urban,,yes,0.13856812933025403,,yes,,
+202,35-39,urban,,,0.1980849790544584,,,,
+203,35-39,urban,,,0.18507462686567164,pit latrine with slab,,,
+204,35-39,urban,,,0.1696969696969697,pit latrine with slab,yes,,
+205,35-39,urban,,no,0.22916666666666666,,,,protected well
+206,35-39,urban,,,0.2169230769230769,,,,protected well
+207,35-39,urban,,,0.22519083969465647,,yes,,protected well
+208,15-19,rural,6.0,no,0.2,,,,
+209,15-19,rural,6.0,,0.2,,,,
+210,15-19,rural,,no,0.12,,,,unprotected well
+211,15-19,rural,,,0.12,,,,unprotected well
+212,15-19,rural,,no,0.1016949152542373,,,,unprotected spring
+213,15-19,rural,,,0.1016949152542373,,,,unprotected spring
+214,15-19,rural,,no,0.18055555555555555,,,,tube well or borehole
+215,15-19,rural,,no,0.225,,yes,,tube well or borehole
+216,15-19,rural,,,0.18055555555555555,,,,tube well or borehole
+217,15-19,rural,,,0.225,,yes,,tube well or borehole
+218,15-19,rural,,no,0.1076923076923077,,,,protected well
+219,15-19,rural,,no,0.14285714285714285,,yes,,protected well
+220,15-19,rural,,,0.1076923076923077,,,,protected well
+221,15-19,rural,,,0.14285714285714285,,yes,,protected well
+222,15-19,rural,,no,0.1111111111111111,pit latrine without slab/open pit,,,river/dam/lake/ponds/stream/canal/irrigation channel
+223,15-19,rural,,,0.1111111111111111,pit latrine without slab/open pit,,,river/dam/lake/ponds/stream/canal/irrigation channel
+224,15-19,rural,,no,0.09615384615384616,,no,,river/dam/lake/ponds/stream/canal/irrigation channel
+225,15-19,rural,,no,0.07272727272727272,,yes,,river/dam/lake/ponds/stream/canal/irrigation channel
+226,15-19,rural,,no,0.08411214953271028,,,,river/dam/lake/ponds/stream/canal/irrigation channel
+227,15-19,rural,,,0.07272727272727272,,yes,,river/dam/lake/ponds/stream/canal/irrigation channel
+228,15-19,rural,,,0.08411214953271028,,,,river/dam/lake/ponds/stream/canal/irrigation channel
+229,15-19,rural,,no,0.1,,,20.0,
+230,15-19,rural,,,0.1,,,20.0,
+231,15-19,rural,,no,0.0851063829787234,pit latrine without slab/open pit,no,,
+232,15-19,rural,,no,0.10126582278481013,pit latrine without slab/open pit,yes,,
+233,15-19,rural,,no,0.09523809523809523,pit latrine without slab/open pit,,,
+234,15-19,rural,,,0.10126582278481013,pit latrine without slab/open pit,yes,,
+235,15-19,rural,,,0.09523809523809523,pit latrine without slab/open pit,,,
+236,15-19,rural,,no,0.058823529411764705,no facility/bush/field,no,,
+237,15-19,rural,,no,0.1956521739130435,no facility/bush/field,yes,,
+238,15-19,rural,,no,0.11403508771929824,no facility/bush/field,,,
+239,15-19,rural,,,0.1956521739130435,no facility/bush/field,yes,,
+240,15-19,rural,,,0.11304347826086956,no facility/bush/field,,,
+241,15-19,rural,,no,0.1095890410958904,pit latrine with slab,,,
+242,15-19,rural,,no,0.1276595744680851,pit latrine with slab,yes,,
+243,15-19,rural,,,0.1095890410958904,pit latrine with slab,,,
+244,15-19,rural,,,0.1276595744680851,pit latrine with slab,yes,,
+245,15-19,rural,,no,0.20930232558139536,ventilated improved pit latrine (vip),,,
+246,15-19,rural,,,0.20930232558139536,ventilated improved pit latrine (vip),,,
+247,15-19,rural,,no,0.0759493670886076,,no,,
+248,15-19,rural,,no,0.15121951219512195,,yes,,
+249,15-19,rural,,no,0.1184573002754821,,,,
+250,15-19,rural,,,0.15121951219512195,,yes,,
+251,15-19,rural,,,0.11813186813186813,,,,
+252,15-19,rural,,no,0.16363636363636364,,,10.0,
+253,15-19,rural,,no,0.21212121212121213,,yes,10.0,
+254,15-19,rural,,,0.16363636363636364,,,10.0,
+255,15-19,rural,,,0.21212121212121213,,yes,10.0,
+256,15-19,rural,,no,0.08823529411764706,,,15.0,
+257,15-19,rural,,,0.08823529411764706,,,15.0,
+258,15-19,rural,,no,0.2727272727272727,,,30.0,
+259,15-19,rural,,,0.2727272727272727,,,30.0,
+260,15-19,rural,7.0,no,0.058823529411764705,,,,
+261,15-19,rural,7.0,,0.058823529411764705,,,,
+262,15-19,rural,5.0,no,0.09375,,,,
+263,15-19,rural,5.0,,0.09375,,,,
+264,15-19,rural,8.0,no,0.16129032258064516,,,,
+265,15-19,rural,8.0,,0.16129032258064516,,,,
+266,15-19,urban,6.0,,0.13636363636363635,,,,
+267,15-19,urban,,no,0.18518518518518517,pit latrine without slab/open pit,,,
+268,15-19,urban,,,0.20689655172413793,pit latrine without slab/open pit,,,
+269,15-19,urban,,no,0.2,,no,,
+270,15-19,urban,,no,0.15384615384615385,,yes,,
+271,15-19,urban,,no,0.16911764705882354,,,,
+272,15-19,urban,,yes,0.1891891891891892,,,,
+273,15-19,urban,,yes,0.1724137931034483,,yes,,
+274,15-19,urban,,,0.17341040462427745,,,,
+275,15-19,urban,,no,0.14285714285714285,pit latrine with slab,,,
+276,15-19,urban,,no,0.06666666666666667,pit latrine with slab,yes,,
+277,15-19,urban,,yes,0.0,pit latrine with slab,,,
+278,15-19,urban,,yes,0.0,pit latrine with slab,yes,,
+279,15-19,urban,,,0.1111111111111111,pit latrine with slab,,,
+280,15-19,urban,,no,0.17647058823529413,ventilated improved pit latrine (vip),,,
+281,15-19,urban,,no,0.23076923076923078,ventilated improved pit latrine (vip),yes,,
+282,15-19,urban,,,0.20512820512820512,ventilated improved pit latrine (vip),,,
+283,15-19,urban,,,0.23333333333333334,ventilated improved pit latrine (vip),yes,,
+284,15-19,urban,,,0.0,flush to septic tank,,,
+285,15-19,urban,,no,0.11538461538461539,,,0.0,
+286,15-19,urban,,yes,0.25,,,0.0,
+287,15-19,urban,,,0.16666666666666666,,,0.0,
+288,15-19,urban,,no,0.13043478260869565,,,10.0,
+289,15-19,urban,,,0.10714285714285714,,,10.0,
+290,15-19,urban,,,0.05,,yes,10.0,
+291,15-19,urban,,,0.25,,,30.0,
+292,15-19,urban,,no,0.16666666666666666,,,,protected well
+293,15-19,urban,,no,0.16666666666666666,,yes,,protected well
+294,15-19,urban,,yes,0.13333333333333333,,,,protected well
+295,15-19,urban,,yes,0.14285714285714285,,yes,,protected well
+296,15-19,urban,,,0.15942028985507245,,,,protected well
+297,15-19,urban,,no,0.1,pit latrine with slab,,,protected well
+298,15-19,urban,,no,0.07142857142857142,pit latrine with slab,yes,,protected well
+299,15-19,urban,,,0.07142857142857142,pit latrine with slab,,,protected well
+300,15-19,urban,,,0.045454545454545456,pit latrine with slab,yes,,protected well
+301,15-19,urban,,,0.08695652173913043,,,0.0,protected well
+302,15-19,urban,,no,0.16129032258064516,,,,public tap/standpipe
+303,15-19,urban,,yes,0.14285714285714285,,,,public tap/standpipe
+304,15-19,urban,,yes,0.25,,yes,,public tap/standpipe
+305,15-19,urban,,,0.15789473684210525,,,,public tap/standpipe
+306,15-19,urban,7.0,,0.21739130434782608,,,,
+307,15-19,urban,5.0,,0.3333333333333333,,,,
+308,15-19,urban,8.0,,0.21052631578947367,,,,
+309,15-19,urban,9.0,,0.0,,,,
+310,45-49,rural,,no,0.26627218934911245,pit latrine without slab/open pit,,,
+311,45-49,rural,,,0.265748031496063,pit latrine without slab/open pit,,,
+312,45-49,rural,,no,0.2626728110599078,no facility/bush/field,,,
+313,45-49,rural,,,0.2633979475484607,no facility/bush/field,,,
+314,45-49,rural,,no,0.27176566314076483,,no,,
+315,45-49,rural,,no,0.2576193214491087,,yes,,
+316,45-49,rural,,no,0.2637768817204301,,,,
+317,45-49,rural,,,0.2580275229357798,,yes,,
+318,45-49,rural,,,0.26529255319148937,,,,
+319,45-49,rural,,no,0.27180232558139533,,,,unprotected spring
+320,45-49,rural,,,0.27180232558139533,,,,unprotected spring
+321,45-49,rural,,,0.2476780185758514,,,,river/dam/lake/ponds/stream/canal/irrigation channel
+322,45-49,urban,,no,0.24597918637653737,,,,
+323,45-49,urban,,no,0.24171779141104294,,yes,,
+324,45-49,urban,,,0.2303330970942594,,,,
+325,45-49,urban,,,0.22452504317789293,,yes,,
