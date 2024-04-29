@@ -36,7 +36,7 @@ if __name__ == '__main__':
         "Type of toilet facility",
         "Has electricity",
         "Has radio",
-        "Age of head of household"
+        "Age of head of household",
     ]
     measures = [
         "Sons who have died",
@@ -45,6 +45,6 @@ if __name__ == '__main__':
     ]
     final_dataset.filter(dimensions + measures).to_csv("../resources/input_join.csv")
 
-    #run(final_dataset, dimensions, measures, ratio, "under-5 mortality", threshold=2, best_effort=False)
+    run(final_dataset, dimensions, measures, ratio, "under-5 mortality", threshold=1000)
     end = round(time.time() * 1000)
     print("Total Time: " + str((end - start) / 1000))

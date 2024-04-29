@@ -1,34 +1,32 @@
-import uuid
 import pandas as pd
-import heapq
-
-def sort_dimensions(dataset: pd.DataFrame, dimensions):
-    sorted_dimensions = []
-    for dim in dimensions:
-        heapq.heappush(sorted_dimensions, (dataset[dim].nunique(), dim))
-    sorted_dimensions = [item[1] for item in sorted_dimensions]
-    return sorted_dimensions
+import uuid
 
 
-def run(dataset: pd.DataFrame, dimensions, measures, measure_fn, measure_name, threshold = 0, best_effort=False):
-    sorted_dimensions=dimensions
-    if best_effort:
-        sorted_dimensions = sort_dimensions(dataset, dimensions)
-
-    slim_dataset = dataset[sorted_dimensions + measures]
+def run(dataset: pd.DataFrame, dimensions, measures, measure_fn, measure_name, threshold = 0):
+    """
+    Call this generic method to get the combination of the dimensional values and write to a csv value
+    :param dataset: The dataset to run the combination code on
+    :param dimensions: The list of columns to slice the dataset on
+    :param measures: The list of columns on which to perform the measure function
+    :param measure_fn: user defined function to execute on the measure columns
+    :param measure_name: computed measure column name
+    :param threshold: threshold to meet on the minimum number of rows for each combination
+    """
     dim_unique_values = dict()
     for dim in dimensions:
         dim_unique_values[dim] = dataset[dim].unique()
 
+    slim_dataset = dataset[dimensions + measures]
+
     result_dataset = []
     combinations(
         slim_dataset,
-        sorted_dimensions,
+        dimensions,
         dim_unique_values,
         measures,
         measure_fn,
         measure_name,
-        100,
+        threshold,
         result_dataset)
 
     res_df = pd.DataFrame(result_dataset)
@@ -61,12 +59,13 @@ def combinations(
         return
 
     dim = dimensions[0]
+    # Boolean variable to ignore recursive call
     skippedOnce = False
     for dim_val in dim_unique_vals[dim]:
         filter_df = dataset[dataset[dim] == dim_val]
         # If true, no need to slice further. Proceed with calculating the measure
         # and adding to the result dataset
-        if len(filter_df.index) <= row_threshold:
+        if len(filter_df.index) < row_threshold:
             if not skippedOnce:
                 combinations(
                     dataset,
