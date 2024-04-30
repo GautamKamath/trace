@@ -12,6 +12,7 @@ def run(dataset: pd.DataFrame, dimensions, measures, measure_fn, measure_name, t
     :param measure_fn: user defined function to execute on the measure columns
     :param measure_name: computed measure column name
     :param threshold: threshold to meet on the minimum number of rows for each combination
+    :param best_effort: if true, the dimension are sorted in the reverse order of unique values
     """
     dim_unique_values = dict()
     for dim in dimensions:
