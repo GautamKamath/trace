@@ -1,13 +1,16 @@
 import pandas as pd
 import time
 from eval_dataset import run
+import os
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', 200)
 
 def prep_dataset():
-    women_df = pd.read_csv("../resources/women.csv", index_col=0)
-    household_df = pd.read_csv("../resources/household.csv").set_index(['Cluster number', 'Household number'])
+    dir = os.path.dirname(__file__)
+
+    women_df = pd.read_csv(dir + "/../resources/women.csv", index_col=0)
+    household_df = pd.read_csv(dir + "/../resources/household.csv").set_index(['Cluster number', 'Household number'])
     household_df.drop(axis='columns', columns=household_df.columns[0], inplace=True)
     final_df = women_df.join(household_df,
             on=['Cluster number', 'Household number'],
@@ -43,7 +46,9 @@ if __name__ == '__main__':
         "Daughters who have died",
         "Total children ever born"
     ]
-    final_dataset.filter(dimensions + measures).to_csv("../resources/input_join.csv")
+
+    dir = os.path.dirname(__file__)
+    final_dataset.filter(dimensions + measures).to_csv(dir + "/../resources/input_join.csv")
 
     run(final_dataset, dimensions, measures, ratio, "under-5 mortality", threshold=10)
     end = round(time.time())

@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import uuid
 
@@ -30,7 +31,7 @@ def run(dataset: pd.DataFrame, dimensions, measures, measure_fn, measure_name, t
 
     res_df = pd.DataFrame(result_dataset)
     res_df = res_df[[col for col in res_df if col != measure_name] + [measure_name]]
-    res_df.to_csv("../resources/output-" + str(uuid.uuid4()) + ".csv")
+    res_df.to_csv(os.path.dirname(__file__) + "/../resources/output-" + str(uuid.uuid4()) + ".csv")
 
 def combinations(
         dataset: pd.DataFrame,
