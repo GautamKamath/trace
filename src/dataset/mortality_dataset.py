@@ -25,7 +25,7 @@ def ratio(dataset: pd.DataFrame) -> float:
 
 
 if __name__ == '__main__':
-    start = round(time.time() * 1000)
+    start = round(time.time())
     final_dataset = prep_dataset()
     dimensions = [
         "Age in 5-year groups",
@@ -45,6 +45,6 @@ if __name__ == '__main__':
     ]
     final_dataset.filter(dimensions + measures).to_csv("../resources/input_join.csv")
 
-    run(final_dataset, dimensions, measures, ratio, "under-5 mortality", threshold=1000)
-    end = round(time.time() * 1000)
-    print("Total Time: " + str((end - start) / 1000))
+    run(final_dataset, dimensions, measures, ratio, "under-5 mortality", threshold=10)
+    end = round(time.time())
+    print("Total Time: " + str((end - start)))

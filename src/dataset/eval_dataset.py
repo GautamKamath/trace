@@ -1,7 +1,6 @@
 import pandas as pd
 import uuid
 
-
 def run(dataset: pd.DataFrame, dimensions, measures, measure_fn, measure_name, threshold = 0):
     """
     Call this generic method to get the combination of the dimensional values and write to a csv value
@@ -30,7 +29,8 @@ def run(dataset: pd.DataFrame, dimensions, measures, measure_fn, measure_name, t
         result_dataset)
 
     res_df = pd.DataFrame(result_dataset)
-    res_df.to_csv("../resources/output" + str(uuid.uuid4()) + ".csv")
+    res_df = res_df[[col for col in res_df if col != measure_name] + [measure_name]]
+    res_df.to_csv("../resources/output-" + str(uuid.uuid4()) + ".csv")
 
 def combinations(
         dataset: pd.DataFrame,
@@ -41,21 +41,17 @@ def combinations(
         measure_name,
         row_threshold,
         result_dataset = [],
-        dimensions_sliced = [],
-        cache={}):
+        dimensions_sliced = []):
     # If control reaches here we have all the dimensions sliced. Proceed with
     # calculating the measure and adding to the result dataset
     if len(dimensions) == 0:
-        cache_key = get_cache_key(dimensions_sliced)
-        if cache_key not in cache:
-            cache[cache_key] = True
-            measure_and_report(
-                dataset,
-                measures,
-                measure_name,
-                measure_fn,
-                result_dataset,
-                dimensions_sliced)
+        measure_and_report(
+            dataset,
+            measures,
+            measure_name,
+            measure_fn,
+            result_dataset,
+            dimensions_sliced)
         return
 
     dim = dimensions[0]
@@ -76,8 +72,7 @@ def combinations(
                     measure_name,
                     row_threshold,
                     result_dataset,
-                    dimensions_sliced,
-                    cache)
+                    dimensions_sliced)
                 skippedOnce = True
         else:
             dimensions_sliced.append((dim, dim_val))
@@ -90,12 +85,8 @@ def combinations(
                 measure_name,
                 row_threshold,
                 result_dataset,
-                dimensions_sliced,
-                cache)
+                dimensions_sliced)
             dimensions_sliced.pop()
-
-def get_cache_key(dimensions_sliced):
-    return "|".join(list(map(lambda x: str(x[1]), dimensions_sliced)))
 
 def measure_and_report(
         dataset: pd.DataFrame,
