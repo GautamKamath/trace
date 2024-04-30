@@ -50,6 +50,6 @@ if __name__ == '__main__':
     dir = os.path.dirname(__file__)
     final_dataset.filter(dimensions + measures).to_csv(dir + "/../resources/input_join.csv")
 
-    run(final_dataset, dimensions, measures, ratio, "under-5 mortality", threshold=10)
+    run(final_dataset, dimensions, measures, ratio, "under-5 mortality", threshold=10, best_effort=True)
     end = round(time.time())
     print("Total Time: " + str((end - start)))

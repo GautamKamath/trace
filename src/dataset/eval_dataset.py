@@ -1,8 +1,9 @@
+import heapq
 import os
 import pandas as pd
 import uuid
 
-def run(dataset: pd.DataFrame, dimensions, measures, measure_fn, measure_name, threshold = 0):
+def run(dataset: pd.DataFrame, dimensions, measures, measure_fn, measure_name, threshold = 0, best_effort=False):
     """
     Call this generic method to get the combination of the dimensional values and write to a csv value
     :param dataset: The dataset to run the combination code on
@@ -16,12 +17,21 @@ def run(dataset: pd.DataFrame, dimensions, measures, measure_fn, measure_name, t
     for dim in dimensions:
         dim_unique_values[dim] = dataset[dim].unique()
 
+    sorted_dimensions = dimensions
+    if best_effort:
+        sorted_dimensions = []
+        for key in dim_unique_values.keys():
+            heapq.heappush(sorted_dimensions, (len(dim_unique_values[key]), key))
+
+        sorted_dimensions = [dim[1] for dim in sorted_dimensions]
+        sorted_dimensions.reverse()
+
     slim_dataset = dataset[dimensions + measures]
 
     result_dataset = []
     combinations(
         slim_dataset,
-        dimensions,
+        sorted_dimensions,
         dim_unique_values,
         measures,
         measure_fn,
