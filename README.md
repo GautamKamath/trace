@@ -24,9 +24,10 @@ The project consists of two files
     - This is the real world dataset provided in the problem
     - Reads both the `women.csv` and `household.csv` files
     - Joins the two using the `cluster number` and `household number` columns
+    - Creates a csv of the joined dataset in the resource folder with name input_join.csv
     - Calls the run method in the eval_dataset.
 
 
-To run the real world problem, please run `python3 mortality_dataset.py`. The output 
-should be created in the resources directory in the format output-<uuid>.csv. This will 
-have all the combinations for the provided given input `dataset`, `dimensions` and `measures` 
+To run the real world problem, please run `python3 src/dataset/mortality_dataset.py`. The output 
+should be created in the resources directory in the format `output-<uuid>.csv`. This will 
+have all the combinations for the provided `dataset`, `dimensions` and `measures` 
